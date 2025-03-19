@@ -1,6 +1,4 @@
 import browser from 'webextension-polyfill'
-// Simple encryption/decryption utility using Base64 (not secure for sensitive data)
-// You should replace this with a stronger encryption library (e.g., AES) for real-world usage
 
 const encrypt = (data: string) => {
   return btoa(data)
