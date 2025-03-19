@@ -10,7 +10,7 @@ export default function PageHeader({ children }: PropsWithChildren) {
       url: browser.runtime.getURL('index.html'),
       type: 'popup',
       width: 600,
-      height: 400
+      height: 432
     })
   }
 
