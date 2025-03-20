@@ -1,1 +1,0 @@
-{"manifest_version":3,"name":"HackerOne Scope Retriever","description":"Una extensión para obtener el scope de los programas privados de HackerOne","version":"1.0","permissions":["storage","activeTab","tabs"],"action":{"default_popup":"index.html"},"host_permissions":["https://api.hackerone.com/*"],"browser_specific_settings":{"gecko":{"id":"h1-scope-retriever@black-box.com"}}}
