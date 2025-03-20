@@ -10,7 +10,7 @@ BB-Arg H1 Scope Retriever es una extensión de navegador que facilita la obtenci
 
 1. **Descargar la Extensión Compilada**
 
-   - Ve a la [página de Releases](https://github.com/tuusuario/bb-arg-h1-scope-retriever/releases) del repositorio
+   - Ve a la [página de Releases](https://github.com/Cristian-Estevez/bb-arg-h1-scope-retriever/releases) del repositorio
    - Descarga la última versión disponible para tu navegador:
      - Para Chrome/Edge: Archivo `.zip` o carpeta `dist`
      - Para Firefox: Archivo `.xpi` (si está disponible)
@@ -29,7 +29,7 @@ BB-Arg H1 Scope Retriever es una extensión de navegador que facilita la obtenci
 
 1. **Descargar o Clonar el Repositorio**
    ```sh
-   git clone https://github.com/tuusuario/bb-arg-h1-scope-retriever.git
+   git clone https://github.com/Cristian-Estevez/bb-arg-h1-scope-retriever.git
    cd bb-arg-h1-scope-retriever
    ```
 2. **Compilar la Extensión**
