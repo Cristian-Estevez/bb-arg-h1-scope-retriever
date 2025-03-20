@@ -4,9 +4,28 @@
 
 BB-Arg H1 Scope Retriever es una extensión de navegador que facilita la obtención de los detalles de alcance de los programas de HackerOne. Con esta herramienta, puedes buscar y descargar fácilmente los dominios disponibles para pruebas dentro de los programas de bug bounty.
 
-## Instalación Manual
+## Instalación
 
-### Google Chrome / Edge (Modo Desarrollador)
+### Opción 1: Descargar desde Releases
+
+1. **Descargar la Extensión Compilada**
+
+   - Ve a la [página de Releases](https://github.com/tuusuario/bb-arg-h1-scope-retriever/releases) del repositorio
+   - Descarga la última versión disponible para tu navegador:
+     - Para Chrome/Edge: Archivo `.zip` o carpeta `dist`
+     - Para Firefox: Archivo `.xpi` (si está disponible)
+
+2. **Instalar en el Navegador**
+   - **Chrome/Edge**:
+     - Extrae el archivo descargado (si es un `.zip`)
+     - Sigue los pasos de instalación en modo desarrollador que se indican abajo
+   - **Firefox**:
+     - Si descargaste un `.xpi`, haz doble clic sobre él o arrástralo a la ventana de Firefox para instalarlo
+     - Si descargaste la carpeta `dist`, sigue los pasos de instalación temporal que se indican abajo
+
+### Opción 2: Instalación Manual (Compilando)
+
+#### Google Chrome / Edge (Modo Desarrollador)
 
 1. **Descargar o Clonar el Repositorio**
    ```sh
@@ -28,7 +47,7 @@ BB-Arg H1 Scope Retriever es una extensión de navegador que facilita la obtenci
    - Haz clic en **Cargar extensión sin empaquetar** y selecciona la carpeta `dist/`.
    - La extensión se añadirá y estará lista para usarse.
 
-### Firefox (Modo Desarrollador)
+#### Firefox (Modo Desarrollador)
 
 1. **Descargar o Clonar el Repositorio** (mismo paso que en Chrome).
 2. **Compilar la Extensión** (mismo paso que en Chrome).
